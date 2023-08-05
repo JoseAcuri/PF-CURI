@@ -26,11 +26,11 @@
     font-family: 'edo';
 }
 .nav-item a{
-  color: #d11e1e; 
+  color: #ffffff; 
   transition: color 0.3s;
 }
 .nav-item a:hover{
-  color: #fff;
+  color: #f60f0f;
 }
 /*home*/
 .home{
