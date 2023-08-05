@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "edo";
+    src: url(../fonts/edo.ttf);
+  }
+  @font-face {
+    font-family: "bodoni";
+    src: url(../fonts/bodoni.ttf);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    color: #fff;
+    font-family: 'edo';
+}
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 15%;
+    border-color: bisque;
+  }
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'edo';
+}
