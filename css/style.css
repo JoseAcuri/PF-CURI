@@ -25,3 +25,51 @@
     font-size: 1.5em;
     font-family: 'edo';
 }
+.home{
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background: #2696e9; */
+  background-image: url(../media/anibal-w.jpg);
+}
+.home .content{
+  z-index: 888;
+  color: #fff;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+.home .content h1 {
+  font-size: 4em;
+  font-family: 'edo';
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+.home .content h1 span{
+font-size: 1.2rem;
+font-weight: 600;
+}
+.home .media-icons{
+  z-index: 888;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5 ease;
+}
+.home .media-icons a{
+  color: #fff;
+  font-size: 1.6em;
+  transition: 0.3 ease;
+}
