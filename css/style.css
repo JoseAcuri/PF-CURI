@@ -25,6 +25,7 @@
     font-size: 1.5em;
     font-family: 'edo';
 }
+/*home*/
 .home{
   background-size: cover;
   background-position: center;
@@ -72,4 +73,37 @@ font-weight: 600;
   color: #fff;
   font-size: 1.6em;
   transition: 0.3 ease;
+}
+/*musica*/
+.tittle{
+  font-family: 'edo';
+}
+.fullscreen-section {
+  background-image: url(../media/kerydofondo2.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh; /* Cubre toda la altura de la pantalla */
+}
+.fullscreen-section h2 {
+  margin: 0;
+}
+.video-section {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: #fff solid;
+}
+iframe {
+  max-width: 100%;
 }
