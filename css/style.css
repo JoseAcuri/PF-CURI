@@ -160,3 +160,76 @@ iframe {
     width: 20%;
   }
 }
+/*contacto*/
+
+.contactanos {
+  background-image: url(../media/anibal-w.jpg);
+  background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+} 
+.contact-form {
+  font-family: 'edo';
+  max-width: 60%;
+  margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  border-color: #fff;
+  color: #fff;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(255, 255, 255); 
+  border-color: #fff;
+}
+/*contacto*/
+
+.section-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content-wrapper img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  border: #fff solid;
+}
+.mapa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  border: #000000 solid;
+}
+
+
+@media (min-width: 768px) {
+  .section-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
