@@ -197,6 +197,19 @@ iframe {
   color: rgb(255, 255, 255); 
   border-color: #fff;
 }
+.contactanos .media-icons{
+  z-index: 888;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5 ease;
+}
+.contactanos .media-icons a{
+  color: #fff;
+  font-size: 1.6em;
+  transition: 0.3 ease;
+}
 /*contacto*/
 
 .section-container {
