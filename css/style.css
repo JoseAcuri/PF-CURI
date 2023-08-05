@@ -25,6 +25,13 @@
     font-size: 1.5em;
     font-family: 'edo';
 }
+.nav-item a{
+  color: #d11e1e; 
+  transition: color 0.3s;
+}
+.nav-item a:hover{
+  color: #fff;
+}
 /*home*/
 .home{
   background-size: cover;
