@@ -391,4 +391,39 @@ iframe {
     border: none;
     width: 100%;
   }
+}
+/*footer*/
+footer {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #aaa;
 }/*# sourceMappingURL=style.css.map */
